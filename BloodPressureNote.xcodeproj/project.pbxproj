@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B47C8A72C8D86A676C5DEAA /* Pods_BloodPressureNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBB3BE7FE829DE54DF33518 /* Pods_BloodPressureNote.framework */; };
+		B70F9DE82686C95F003DA9BE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9DE72686C95F003DA9BE /* Color.swift */; };
+		B70F9DEC26875568003DA9BE /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70F9DEB26875568003DA9BE /* RecordViewController.swift */; };
+		B71C7719268DF24E00C0BE90 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71C7718268DF24E00C0BE90 /* Record.swift */; };
 		B7487B3D26837530009791C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B3C26837530009791C4 /* AppDelegate.swift */; };
 		B7487B3F26837530009791C4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B3E26837530009791C4 /* SceneDelegate.swift */; };
-		B7487B4126837530009791C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B4026837530009791C4 /* ViewController.swift */; };
 		B7487B4426837530009791C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7487B4226837530009791C4 /* Main.storyboard */; };
 		B7487B4626837531009791C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7487B4526837531009791C4 /* Assets.xcassets */; };
 		B7487B4926837531009791C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7487B4726837531009791C4 /* LaunchScreen.storyboard */; };
+		B7487B522684B3F1009791C4 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B512684B3F1009791C4 /* CalenderViewController.swift */; };
+		B7487B552684B408009791C4 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B542684B408009791C4 /* GraphViewController.swift */; };
+		B7487B582684B4CC009791C4 /* SupportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B572684B4CC009791C4 /* SupportViewController.swift */; };
+		B7487B5B2684B4DA009791C4 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B5A2684B4DA009791C4 /* ReportViewController.swift */; };
+		B7487B5E2684B4E6009791C4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B5D2684B4E6009791C4 /* SettingViewController.swift */; };
+		B7487B622686BFBB009791C4 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7487B612686BFBB009791C4 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3593FD1A75D6B894FDB67062 /* Pods-BloodPressureNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodPressureNote.release.xcconfig"; path = "Target Support Files/Pods-BloodPressureNote/Pods-BloodPressureNote.release.xcconfig"; sourceTree = "<group>"; };
+		5E6AC5CA79BEA7416F2164A3 /* Pods-BloodPressureNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BloodPressureNote.debug.xcconfig"; path = "Target Support Files/Pods-BloodPressureNote/Pods-BloodPressureNote.debug.xcconfig"; sourceTree = "<group>"; };
+		B70F9DE72686C95F003DA9BE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		B70F9DEB26875568003DA9BE /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		B71C7718268DF24E00C0BE90 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		B7487B3926837530009791C4 /* BloodPressureNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodPressureNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7487B3C26837530009791C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7487B3E26837530009791C4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B7487B4026837530009791C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B7487B4326837530009791C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7487B4526837531009791C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7487B4826837531009791C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B7487B4A26837531009791C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7487B512684B3F1009791C4 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		B7487B542684B408009791C4 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		B7487B572684B4CC009791C4 /* SupportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportViewController.swift; sourceTree = "<group>"; };
+		B7487B5A2684B4DA009791C4 /* ReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		B7487B5D2684B4E6009791C4 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B7487B612686BFBB009791C4 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B7BC6BB726AFDF5A008F8609 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BC6BBB26AFDF60008F8609 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7BC6BBE26AFDF66008F8609 /* FSCalendar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSCalendar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBB3BE7FE829DE54DF33518 /* Pods_BloodPressureNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BloodPressureNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B47C8A72C8D86A676C5DEAA /* Pods_BloodPressureNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A6801B17220B89E93AEEE7D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7BC6BBE26AFDF66008F8609 /* FSCalendar.framework */,
+				B7BC6BBB26AFDF60008F8609 /* Realm.framework */,
+				B7BC6BB726AFDF5A008F8609 /* RealmSwift.framework */,
+				DFBB3BE7FE829DE54DF33518 /* Pods_BloodPressureNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7487B3026837530009791C4 = {
 			isa = PBXGroup;
 			children = (
 				B7487B3B26837530009791C4 /* BloodPressureNote */,
 				B7487B3A26837530009791C4 /* Products */,
+				D2B6AB9C0D4471863045DBAE /* Pods */,
+				A6801B17220B89E93AEEE7D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +95,30 @@
 			children = (
 				B7487B3C26837530009791C4 /* AppDelegate.swift */,
 				B7487B3E26837530009791C4 /* SceneDelegate.swift */,
-				B7487B4026837530009791C4 /* ViewController.swift */,
+				B7487B512684B3F1009791C4 /* CalenderViewController.swift */,
+				B70F9DEB26875568003DA9BE /* RecordViewController.swift */,
+				B7487B542684B408009791C4 /* GraphViewController.swift */,
+				B7487B572684B4CC009791C4 /* SupportViewController.swift */,
+				B7487B5A2684B4DA009791C4 /* ReportViewController.swift */,
+				B7487B5D2684B4E6009791C4 /* SettingViewController.swift */,
 				B7487B4226837530009791C4 /* Main.storyboard */,
+				B7487B612686BFBB009791C4 /* TabBarController.swift */,
+				B70F9DE72686C95F003DA9BE /* Color.swift */,
 				B7487B4526837531009791C4 /* Assets.xcassets */,
 				B7487B4726837531009791C4 /* LaunchScreen.storyboard */,
 				B7487B4A26837531009791C4 /* Info.plist */,
+				B71C7718268DF24E00C0BE90 /* Record.swift */,
 			);
 			path = BloodPressureNote;
+			sourceTree = "<group>";
+		};
+		D2B6AB9C0D4471863045DBAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5E6AC5CA79BEA7416F2164A3 /* Pods-BloodPressureNote.debug.xcconfig */,
+				3593FD1A75D6B894FDB67062 /* Pods-BloodPressureNote.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B7487B4D26837531009791C4 /* Build configuration list for PBXNativeTarget "BloodPressureNote" */;
 			buildPhases = (
+				E9D123EB5A95BAFC218322EC /* [CP] Check Pods Manifest.lock */,
 				B7487B3526837530009791C4 /* Sources */,
 				B7487B3626837530009791C4 /* Frameworks */,
 				B7487B3726837530009791C4 /* Resources */,
+				CE364A70CAB04B61C55FD0B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +188,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CE364A70CAB04B61C55FD0B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BloodPressureNote/Pods-BloodPressureNote-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BloodPressureNote/Pods-BloodPressureNote-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BloodPressureNote/Pods-BloodPressureNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9D123EB5A95BAFC218322EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BloodPressureNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7487B3526837530009791C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7487B4126837530009791C4 /* ViewController.swift in Sources */,
+				B7487B522684B3F1009791C4 /* CalenderViewController.swift in Sources */,
+				B7487B622686BFBB009791C4 /* TabBarController.swift in Sources */,
+				B7487B552684B408009791C4 /* GraphViewController.swift in Sources */,
+				B7487B582684B4CC009791C4 /* SupportViewController.swift in Sources */,
+				B7487B5E2684B4E6009791C4 /* SettingViewController.swift in Sources */,
 				B7487B3D26837530009791C4 /* AppDelegate.swift in Sources */,
+				B71C7719268DF24E00C0BE90 /* Record.swift in Sources */,
 				B7487B3F26837530009791C4 /* SceneDelegate.swift in Sources */,
+				B70F9DEC26875568003DA9BE /* RecordViewController.swift in Sources */,
+				B7487B5B2684B4DA009791C4 /* ReportViewController.swift in Sources */,
+				B70F9DE82686C95F003DA9BE /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +389,7 @@
 		};
 		B7487B4E26837531009791C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E6AC5CA79BEA7416F2164A3 /* Pods-BloodPressureNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +403,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.ryu-hana.BloodPressureNote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B7487B4F26837531009791C4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3593FD1A75D6B894FDB67062 /* Pods-BloodPressureNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +423,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.techacademy.ryu-hana.BloodPressureNote";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
